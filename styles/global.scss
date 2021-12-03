@@ -1,0 +1,16 @@
+html, body {
+  @apply bg-gray-800;
+}
+
+input {
+  caret-color: theme('colors.blue.500');
+}
+
+p {
+  display: inline-block;
+}
+
+a {
+  text-decoration: underline;
+  @apply text-yellow-300
+}
